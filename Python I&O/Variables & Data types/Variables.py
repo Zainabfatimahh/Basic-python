@@ -1,4 +1,4 @@
-#variables are the storage boxes for our data for e.g. in int
+#variables are the storage boxes for our data for e.g. int
 x=10
 y=9
 print(x,y)
