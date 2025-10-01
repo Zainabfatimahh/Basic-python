@@ -16,5 +16,5 @@ print(f"My name is {name} and my age is {age}")
 print("Hello \nWorld")
 
 #taking name as input
-name=(input"Enter your name:")
-print(hello, name)
+name=input("Enter your name:")
+print("Hello", name)
