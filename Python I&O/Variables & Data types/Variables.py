@@ -8,7 +8,7 @@ name1="aisha"
 name2="alia"
 print(f"There are three girls named {name}, {name1} and {name2}")
 #The f in front of the string tells Python:
-“Hey, this string contains variables or expressions inside {} that should be evaluated and replaced with their values.”
+#Hey, this string contains variables or expressions inside {} that should be evaluated and replaced with their values.
 #it can aslo be written as
 name = "Zainab"
 age = 20
