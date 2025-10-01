@@ -1,2 +1,15 @@
-# Basic-python
-A collection of basic Python scripts and examples for beginners. Covers fundamentals like variables, loops, functions, and simple projects.
+# Basic Print and Input in Python
+
+This is my first Python learning repository.  
+In this repo, I practiced:
+
+- Printing text and numbers with print()
+- Using \n for new lines
+- Taking user input with input()
+- Greeting the user by name
+
+## Example Code
+
+```python
+name = input("Enter your name: ")
+print("Hello", name)
