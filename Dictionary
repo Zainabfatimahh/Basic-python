@@ -1,0 +1,37 @@
+#Dictionary python
+# key:value 
+# mutable 
+dic1={
+"name":"zainab",
+"grade": 13,
+"clg": "apna college",
+"subjs": ["python","C++"],
+"topics":("Dictionary"),
+"marks": {
+    "Physics": 99,
+    "Maths" : 88,
+    }    #nested dictionary
+}
+#null_dic1:{}
+
+#main functs
+
+#dic1["new"]='Java' #to add data
+#dic1["name"]="AYESHA" #to CHANGE data
+#to return all keys = print(dic1.keys()) 
+#Type casting: print(list(dic1.keys())) 
+# Len : print(len(dic1.keys())) 
+# for returning values = print(dic1.values()) 
+#for returning pairs = print(dic1.items()) 
+
+"""pairs=(list(dic1.items())) 
+print(pairs)"""
+
+# print(dic1.get("name")) = returns according to the value of key
+#new dictionary = dic1.update({"city": "bwp"}),
+dic1.update({"city": "bwp"}),
+print(dic1)
+
+
+
+
