@@ -1,0 +1,29 @@
+#TUPLE:
+tup=(123,33,44,44,44,44,44,44,44,44,55,66,0)
+print(tup.index(44))
+#EXP:1
+m1=input("ENTER YOUR 1 FAVOURITE MOVIES")
+m2=input("ENTER YOUR 2 FAVOURITE MOVIES")
+m3=input("ENTER YOUR 3 FAVOURITE MOVIES")
+mov=[]
+mov.append(m1)
+mov.append(m2)
+mov.append(m3)
+print(mov)
+#EXP 2
+list=[1,2,3,2,1]
+list2=[0,3,5,8]
+copy_list = list.copy()
+copy_list.reverse()
+
+if(copy_list==list):
+   print("Palindrome")
+
+else:
+    print("NOT")
+#COUNT FUN:
+GRADE=("C","A","D","A","A","U")
+print(GRADE.count("A")) 
+#SORT FUN:
+A=["C","A","D","B"]
+print(A.sort())
