@@ -1,0 +1,22 @@
+list1=["Amna","Ayeshs"]
+#for printing types
+print(type(list1))
+
+marks=[1,2,23,66,88,88,88,88,5,566,66]
+#for printing types
+print(type(marks))
+
+
+#Functions on lists
+"""list2=["Banana","Apple","Lichi"]
+list2.append("Kiwi")
+list2.reverse()
+list.insert(2,"ALLO")
+print(list2)
+list2.sort()
+print(list2)"""
+
+list=[1,2,3,2,1]
+list2=[0,3,5,8]
+copy_list = list.copy()
+copy_list.reverse()
