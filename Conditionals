@@ -1,0 +1,8 @@
+marks=99
+
+if(marks>80):
+    print("PASS")
+elif(marks<80):
+    print("FAIL")
+else:
+    print("NOT VALID")
