@@ -1,5 +1,6 @@
 🐍 Basic Python Repository (for beginners)
 
+
 Description:
 A beginner-friendly Python learning repository covering the fundamentals of programming. This repo contains simple examples, exercises, and explanations to help new learners build a strong foundation in Python.
 
