@@ -1,0 +1,23 @@
+balance = 5000
+pin = "1234"
+
+entered_pin = input("Enter PIN: ")
+
+if entered_pin == pin:
+    while True:
+        print("\n1. Balance\n2. Withdraw\n3. Exit")
+        choice = input("Choose: ")
+
+        if choice == "1":
+            print("Balance:", balance)
+        elif choice == "2":
+            amount = int(input("Enter amount: "))
+            if amount <= balance:
+                balance -= amount
+                print("Withdrawn:", amount)
+            else:
+                print("Insufficient balance")
+        elif choice == "3":
+            break
+else:
+    print("Wrong PIN")
